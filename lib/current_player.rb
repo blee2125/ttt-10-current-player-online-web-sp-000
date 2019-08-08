@@ -11,6 +11,6 @@ def current_player(turn_count)
     puts "X"
   else
     puts "O"
-    
+
   end
 end
