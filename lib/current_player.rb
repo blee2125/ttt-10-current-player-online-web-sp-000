@@ -1,6 +1,6 @@
 def turn_count(board)
   turns = 0
-  turn_count.each do |spot|
+  board.each do |spot|
     if spot == "X" || spot == "O"
       turns += 1
     end
@@ -9,5 +9,9 @@ def turn_count(board)
 end
 
 def current_player(turn_count)
-  turn_count(board) % 2 == 0 ? "X" : "O"
+  if turn_count % 2 == 0
+    puts "X"
+  else
+    puts "O"
+  end
 end
