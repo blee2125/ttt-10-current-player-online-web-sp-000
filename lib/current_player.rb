@@ -3,7 +3,7 @@ def turn_count(board)
   if turn_count < 9
     counter += 1
   end
-  
+
 end
 
 
